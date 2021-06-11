@@ -1,8 +1,5 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import Form from './components/Form'
+import React from "react";
+import ReactDOM from "react-dom";
+import FormController from "./components/FormController";
 
-ReactDOM.render(
-  <Form />,
-  document.getElementById('root')
-);
+ReactDOM.render(<FormController />, document.getElementById("root"));
